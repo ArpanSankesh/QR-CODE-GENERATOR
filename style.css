@@ -18,14 +18,17 @@ body{
 
 #wrapper{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--base-color);
+    padding: 3vw;
 }
 
 .container{
     width: 100%;
     height: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .left-container{
     width: 50%;
@@ -66,7 +69,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2vw;
+    gap: 3vw;
 }
 
 #inpBox{
@@ -132,3 +135,62 @@ img{
     border: none;
 }
 
+@media (max-width:1050px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+    }
+
+    .left-container{
+        width: 100%;
+    }
+    .right-container{
+        width: 100%;
+    }
+    .content{
+        width: 80vw;
+        /* height: 80vh; */
+    }
+    .content{
+        padding: 5vw;
+        justify-content: space-between;
+    }
+    .left-container h1{
+        font-size: 8vw;
+    }
+    .left-container{
+        line-height: 9vw;
+    }
+    
+#inpBox{
+    width: 60vw;
+    height: 6vh; 
+}
+
+.imageBox{
+    width: 60vw;
+    height: 60vw;
+}
+
+.genBtn{
+    width: 60vw;
+    height: 8vh;
+}
+.downloadBtn{
+    width: 60vw;
+    height: 8vh;
+    
+}
+
+}
+
+@media (max-width:700px) {
+    .content{
+        gap: 4vw;
+    }
+    .left-container h1{
+        font-size: 10vw;
+    }
+}
