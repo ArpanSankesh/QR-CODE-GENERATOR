@@ -60,8 +60,8 @@ body{
 }
 
 .content{
-    width: 80%;
-    height: 80%;
+    width: 40vw;
+    /* height: 80vh; */
     background-color: #fff;
     border-radius: 3vw;
     padding: 2vw;
@@ -73,8 +73,8 @@ body{
 }
 
 #inpBox{
-    width: 90%;
-    height: 10%;
+    width: 32vw;
+    height: 8vh;
     border-radius: 1vw;
     outline: 0;
     font-size: 3vw;
@@ -83,8 +83,8 @@ body{
 }
 
 .imageBox{
-    width: 80%;
-    height: 70%;
+    width: 30vw;
+    height: 30vw;
 }
 
 img{
@@ -93,8 +93,8 @@ img{
 
 
 .genBtn{
-    width: 80%;
-    height: 10%;
+    width: 30vw;
+    height: 8vh;
     border-radius: 1vw;
     font-size: 4vw;
     padding: 0 1vw;
