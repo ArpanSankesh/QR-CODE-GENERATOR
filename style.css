@@ -54,5 +54,14 @@ body{
 .right-container{
     width: 50%;
     height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.content{
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 3vw;
+}
