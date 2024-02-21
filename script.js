@@ -1,0 +1,1 @@
+let inpBox = documet.querySelector('#inpBox');
