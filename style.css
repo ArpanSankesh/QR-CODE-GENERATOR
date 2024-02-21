@@ -7,8 +7,8 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-    font-family: "Kode Mono", monospace;
     font-family: "Micro 5", sans-serif;
+    font-family: "Kode Mono", monospace;
 }
 
 body{
@@ -27,10 +27,8 @@ body{
     height: 100%;
     display: flex;
 }
-
 .left-container{
     width: 50%;
-    height:100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,7 +42,7 @@ body{
     padding: 1vw;
 }
 .left-container h1{
-    font-size: 10vw;
+    font-size: 6vw;
     color: #fff;
 }
 .left-container h1:nth-child(2){
@@ -53,7 +51,6 @@ body{
 
 .right-container{
     width: 50%;
-    height:100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,30 +74,58 @@ body{
     height: 8vh;
     border-radius: 1vw;
     outline: 0;
-    font-size: 3vw;
+    font-size: 2.5vw;
     padding: 0 1vw;
     border: 2px solid #00000050;
+    font-family: "Kode Mono", monospace;
 }
 
 .imageBox{
     width: 30vw;
     height: 30vw;
+    
 }
 
 img{
     height: 100%;
 }
 
+.btns{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
 
 .genBtn{
     width: 30vw;
     height: 8vh;
     border-radius: 1vw;
-    font-size: 4vw;
+    font-size: 3vw;
     padding: 0 1vw;
     border: none;
     outline: none;
     background-color: var(--base-color);
     color: var(--accent-color);
     cursor:pointer;
+}
+.downloadBtn{
+    width: 30vw;
+    height: 8vh;
+    border-radius: 1vw;
+    font-size: 3vw;
+    padding: 0 1vw;
+    border: none;
+    outline: none;
+    background-color: var(--base-color);
+    color: var(--accent-color);
+    cursor:pointer;
+    display: none;
+}
+
+.downloadBtn a{
+    text-decoration: none;
+    color: var(--accent-color);
 }
