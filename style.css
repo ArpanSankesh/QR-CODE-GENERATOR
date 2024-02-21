@@ -125,7 +125,10 @@ img{
     display: none;
 }
 
-.downloadBtn a{
+.downloadBtn{
     text-decoration: none;
     color: var(--accent-color);
+    outline: none;
+    border: none;
 }
+
